@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7871D24DC15BBD0EB60A45F1 /* Pods_StartRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 124FC15B553B9C94DF83A4A8 /* Pods_StartRxSwift.framework */; };
 		AD7836D324A30CBF00495445 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7836D224A30CBF00495445 /* MainViewController.swift */; };
+		AD8EB8B824A3106200111A8D /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8EB8B724A3106200111A8D /* Memo.swift */; };
 		ADFCAEB72473DD2F005738F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFCAEB62473DD2F005738F2 /* AppDelegate.swift */; };
 		ADFCAEBB2473DD2F005738F2 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFCAEBA2473DD2F005738F2 /* TestViewController.swift */; };
 		ADFCAEBE2473DD2F005738F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADFCAEBC2473DD2F005738F2 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 		79631A1CFE6B0752E5FEE305 /* Pods-StartRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StartRxSwift.debug.xcconfig"; path = "Target Support Files/Pods-StartRxSwift/Pods-StartRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		7ECEA8F8D722C1A4B21F72E4 /* Pods-StartRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StartRxSwift.release.xcconfig"; path = "Target Support Files/Pods-StartRxSwift/Pods-StartRxSwift.release.xcconfig"; sourceTree = "<group>"; };
 		AD7836D224A30CBF00495445 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		AD8EB8B724A3106200111A8D /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 		ADFCAEB32473DD2F005738F2 /* StartRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StartRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADFCAEB62473DD2F005738F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADFCAEBA2473DD2F005738F2 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
@@ -62,8 +64,38 @@
 		AD8EB8B224A30E6400111A8D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				AD8EB8B724A3106200111A8D /* Memo.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		AD8EB8B324A30F4D00111A8D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AD7836D224A30CBF00495445 /* MainViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		AD8EB8B424A30F6500111A8D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AD8EB8B524A30F7A00111A8D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		AD8EB8B624A30F8D00111A8D /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scene;
 			sourceTree = "<group>";
 		};
 		ADFCAEAA2473DD2F005738F2 = {
@@ -87,10 +119,13 @@
 		ADFCAEB52473DD2F005738F2 /* StartRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				AD8EB8B324A30F4D00111A8D /* ViewController */,
+				AD8EB8B424A30F6500111A8D /* ViewModel */,
 				AD8EB8B224A30E6400111A8D /* Model */,
+				AD8EB8B624A30F8D00111A8D /* Scene */,
+				AD8EB8B524A30F7A00111A8D /* Service */,
 				ADFCAEB62473DD2F005738F2 /* AppDelegate.swift */,
 				ADFCAEBA2473DD2F005738F2 /* TestViewController.swift */,
-				AD7836D224A30CBF00495445 /* MainViewController.swift */,
 				ADFCAEBC2473DD2F005738F2 /* Main.storyboard */,
 				ADFCAEBF2473DD30005738F2 /* Assets.xcassets */,
 				ADFCAEC12473DD30005738F2 /* LaunchScreen.storyboard */,
@@ -217,6 +252,7 @@
 				AD7836D324A30CBF00495445 /* MainViewController.swift in Sources */,
 				ADFCAEBB2473DD2F005738F2 /* TestViewController.swift in Sources */,
 				ADFCAEB72473DD2F005738F2 /* AppDelegate.swift in Sources */,
+				AD8EB8B824A3106200111A8D /* Memo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

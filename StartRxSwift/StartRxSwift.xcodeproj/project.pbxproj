@@ -18,6 +18,10 @@
 		ADD4D2BB24A3240100949DB3 /* MemoDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD4D2BA24A3240100949DB3 /* MemoDetailViewModel.swift */; };
 		ADD4D2BD24A3242B00949DB3 /* MemoComposeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD4D2BC24A3242B00949DB3 /* MemoComposeViewModel.swift */; };
 		ADD4D2BF24A3246400949DB3 /* VIewModelBindableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD4D2BE24A3246400949DB3 /* VIewModelBindableType.swift */; };
+		ADD4D2C124A3266100949DB3 /* TransitionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD4D2C024A3266100949DB3 /* TransitionModel.swift */; };
+		ADD4D2C324A326B200949DB3 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD4D2C224A326B200949DB3 /* Scene.swift */; };
+		ADD4D2C524A32CF300949DB3 /* SceneCoordinateType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD4D2C424A32CF300949DB3 /* SceneCoordinateType.swift */; };
+		ADD4D2C724A32D7B00949DB3 /* SceneCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD4D2C624A32D7B00949DB3 /* SceneCoordinator.swift */; };
 		ADFCAEB72473DD2F005738F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFCAEB62473DD2F005738F2 /* AppDelegate.swift */; };
 		ADFCAEBB2473DD2F005738F2 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFCAEBA2473DD2F005738F2 /* TestViewController.swift */; };
 		ADFCAEBE2473DD2F005738F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADFCAEBC2473DD2F005738F2 /* Main.storyboard */; };
@@ -39,6 +43,10 @@
 		ADD4D2BA24A3240100949DB3 /* MemoDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoDetailViewModel.swift; sourceTree = "<group>"; };
 		ADD4D2BC24A3242B00949DB3 /* MemoComposeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoComposeViewModel.swift; sourceTree = "<group>"; };
 		ADD4D2BE24A3246400949DB3 /* VIewModelBindableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIewModelBindableType.swift; sourceTree = "<group>"; };
+		ADD4D2C024A3266100949DB3 /* TransitionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionModel.swift; sourceTree = "<group>"; };
+		ADD4D2C224A326B200949DB3 /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		ADD4D2C424A32CF300949DB3 /* SceneCoordinateType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneCoordinateType.swift; sourceTree = "<group>"; };
+		ADD4D2C624A32D7B00949DB3 /* SceneCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneCoordinator.swift; sourceTree = "<group>"; };
 		ADFCAEB32473DD2F005738F2 /* StartRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StartRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADFCAEB62473DD2F005738F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADFCAEBA2473DD2F005738F2 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +96,7 @@
 		AD8EB8B324A30F4D00111A8D /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				ADFCAEBC2473DD2F005738F2 /* Main.storyboard */,
 				ADD4D2B424A3171E00949DB3 /* MemoListViewController.swift */,
 				AD7836D224A30CBF00495445 /* MemoDetailViewController.swift */,
 				ADD4D2B624A322C400949DB3 /* MemoComposeViewController.swift */,
@@ -111,7 +120,6 @@
 			children = (
 				AD8EB8BC24A3122400111A8D /* CoreDataStorage */,
 				AD8EB8BB24A3121200111A8D /* MemoryStorage */,
-				AD8EB8B924A3116B00111A8D /* MemoStorageType.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -119,6 +127,10 @@
 		AD8EB8B624A30F8D00111A8D /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				ADD4D2C024A3266100949DB3 /* TransitionModel.swift */,
+				ADD4D2C224A326B200949DB3 /* Scene.swift */,
+				ADD4D2C424A32CF300949DB3 /* SceneCoordinateType.swift */,
+				ADD4D2C624A32D7B00949DB3 /* SceneCoordinator.swift */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -126,6 +138,7 @@
 		AD8EB8BB24A3121200111A8D /* MemoryStorage */ = {
 			isa = PBXGroup;
 			children = (
+				AD8EB8B924A3116B00111A8D /* MemoStorageType.swift */,
 				AD8EB8BD24A312BD00111A8D /* MemoryStorage.swift */,
 			);
 			path = MemoryStorage;
@@ -159,14 +172,13 @@
 		ADFCAEB52473DD2F005738F2 /* StartRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				ADFCAEB62473DD2F005738F2 /* AppDelegate.swift */,
 				AD8EB8B324A30F4D00111A8D /* ViewController */,
 				AD8EB8B424A30F6500111A8D /* ViewModel */,
 				AD8EB8B224A30E6400111A8D /* Model */,
 				AD8EB8B624A30F8D00111A8D /* Scene */,
 				AD8EB8B524A30F7A00111A8D /* Service */,
-				ADFCAEB62473DD2F005738F2 /* AppDelegate.swift */,
 				ADFCAEBA2473DD2F005738F2 /* TestViewController.swift */,
-				ADFCAEBC2473DD2F005738F2 /* Main.storyboard */,
 				ADFCAEBF2473DD30005738F2 /* Assets.xcassets */,
 				ADFCAEC12473DD30005738F2 /* LaunchScreen.storyboard */,
 				ADFCAEC42473DD30005738F2 /* Info.plist */,
@@ -289,9 +301,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADD4D2C524A32CF300949DB3 /* SceneCoordinateType.swift in Sources */,
 				AD8EB8BE24A312BD00111A8D /* MemoryStorage.swift in Sources */,
+				ADD4D2C124A3266100949DB3 /* TransitionModel.swift in Sources */,
+				ADD4D2C724A32D7B00949DB3 /* SceneCoordinator.swift in Sources */,
 				AD7836D324A30CBF00495445 /* MemoDetailViewController.swift in Sources */,
 				ADD4D2BD24A3242B00949DB3 /* MemoComposeViewModel.swift in Sources */,
+				ADD4D2C324A326B200949DB3 /* Scene.swift in Sources */,
 				AD8EB8BA24A3116B00111A8D /* MemoStorageType.swift in Sources */,
 				ADD4D2BB24A3240100949DB3 /* MemoDetailViewModel.swift in Sources */,
 				ADFCAEBB2473DD2F005738F2 /* TestViewController.swift in Sources */,
@@ -448,7 +464,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ALL2F32G29;
 				INFOPLIST_FILE = StartRxSwift/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,7 +484,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ALL2F32G29;
 				INFOPLIST_FILE = StartRxSwift/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -11,13 +11,9 @@ import UIKit
 class MemoComposeViewController: UIViewController, ViewModelBindableType {
   var viewModel: MemoComposeViewModel!
   
-  let memoCompNavi = UINavigationController().then {
-    $0.navigationBar.prefersLargeTitles = true
-  }
   override func viewDidLoad() {
     super.viewDidLoad()
-    self.view.backgroundColor = .gray
-    self.title = "새 메모"
+  
   }
   
   func bindViewModel() {

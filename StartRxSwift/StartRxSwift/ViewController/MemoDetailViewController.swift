@@ -12,15 +12,10 @@ import Then
 
 class MemoDetailViewController: UIViewController, ViewModelBindableType {
   var viewModel: MemoDetailViewModel!
-  
-  let memoDetailNavi = UINavigationController().then {
-    $0.navigationBar.prefersLargeTitles = true
-  }
-
+ 
   override func viewDidLoad() {
     super.viewDidLoad()
-    self.view.backgroundColor = .yellow
-    self.title = "메모 보기"
+    
   }
   
   func bindViewModel() {

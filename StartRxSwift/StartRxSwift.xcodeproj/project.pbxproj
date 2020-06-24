@@ -59,6 +59,13 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		AD8EB8B224A30E6400111A8D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		ADFCAEAA2473DD2F005738F2 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +87,7 @@
 		ADFCAEB52473DD2F005738F2 /* StartRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				AD8EB8B224A30E6400111A8D /* Model */,
 				ADFCAEB62473DD2F005738F2 /* AppDelegate.swift */,
 				ADFCAEBA2473DD2F005738F2 /* TestViewController.swift */,
 				AD7836D224A30CBF00495445 /* MainViewController.swift */,

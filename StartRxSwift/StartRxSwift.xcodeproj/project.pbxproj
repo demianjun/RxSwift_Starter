@@ -8,10 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		7871D24DC15BBD0EB60A45F1 /* Pods_StartRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 124FC15B553B9C94DF83A4A8 /* Pods_StartRxSwift.framework */; };
-		AD7836D324A30CBF00495445 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7836D224A30CBF00495445 /* MainViewController.swift */; };
+		AD7836D324A30CBF00495445 /* MemoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7836D224A30CBF00495445 /* MemoDetailViewController.swift */; };
 		AD8EB8B824A3106200111A8D /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8EB8B724A3106200111A8D /* Memo.swift */; };
 		AD8EB8BA24A3116B00111A8D /* MemoStorageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8EB8B924A3116B00111A8D /* MemoStorageType.swift */; };
 		AD8EB8BE24A312BD00111A8D /* MemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8EB8BD24A312BD00111A8D /* MemoryStorage.swift */; };
+		ADD4D2B524A3171E00949DB3 /* MemoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD4D2B424A3171E00949DB3 /* MemoListViewController.swift */; };
+		ADD4D2B724A322C400949DB3 /* MemoComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD4D2B624A322C400949DB3 /* MemoComposeViewController.swift */; };
+		ADD4D2B924A323D600949DB3 /* MemoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD4D2B824A323D600949DB3 /* MemoListViewModel.swift */; };
+		ADD4D2BB24A3240100949DB3 /* MemoDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD4D2BA24A3240100949DB3 /* MemoDetailViewModel.swift */; };
+		ADD4D2BD24A3242B00949DB3 /* MemoComposeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD4D2BC24A3242B00949DB3 /* MemoComposeViewModel.swift */; };
+		ADD4D2BF24A3246400949DB3 /* VIewModelBindableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD4D2BE24A3246400949DB3 /* VIewModelBindableType.swift */; };
 		ADFCAEB72473DD2F005738F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFCAEB62473DD2F005738F2 /* AppDelegate.swift */; };
 		ADFCAEBB2473DD2F005738F2 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFCAEBA2473DD2F005738F2 /* TestViewController.swift */; };
 		ADFCAEBE2473DD2F005738F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADFCAEBC2473DD2F005738F2 /* Main.storyboard */; };
@@ -23,10 +29,16 @@
 		124FC15B553B9C94DF83A4A8 /* Pods_StartRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StartRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79631A1CFE6B0752E5FEE305 /* Pods-StartRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StartRxSwift.debug.xcconfig"; path = "Target Support Files/Pods-StartRxSwift/Pods-StartRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		7ECEA8F8D722C1A4B21F72E4 /* Pods-StartRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StartRxSwift.release.xcconfig"; path = "Target Support Files/Pods-StartRxSwift/Pods-StartRxSwift.release.xcconfig"; sourceTree = "<group>"; };
-		AD7836D224A30CBF00495445 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		AD7836D224A30CBF00495445 /* MemoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoDetailViewController.swift; sourceTree = "<group>"; };
 		AD8EB8B724A3106200111A8D /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 		AD8EB8B924A3116B00111A8D /* MemoStorageType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStorageType.swift; sourceTree = "<group>"; };
 		AD8EB8BD24A312BD00111A8D /* MemoryStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryStorage.swift; sourceTree = "<group>"; };
+		ADD4D2B424A3171E00949DB3 /* MemoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListViewController.swift; sourceTree = "<group>"; };
+		ADD4D2B624A322C400949DB3 /* MemoComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoComposeViewController.swift; sourceTree = "<group>"; };
+		ADD4D2B824A323D600949DB3 /* MemoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListViewModel.swift; sourceTree = "<group>"; };
+		ADD4D2BA24A3240100949DB3 /* MemoDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoDetailViewModel.swift; sourceTree = "<group>"; };
+		ADD4D2BC24A3242B00949DB3 /* MemoComposeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoComposeViewModel.swift; sourceTree = "<group>"; };
+		ADD4D2BE24A3246400949DB3 /* VIewModelBindableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIewModelBindableType.swift; sourceTree = "<group>"; };
 		ADFCAEB32473DD2F005738F2 /* StartRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StartRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADFCAEB62473DD2F005738F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADFCAEBA2473DD2F005738F2 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
@@ -76,7 +88,10 @@
 		AD8EB8B324A30F4D00111A8D /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				AD7836D224A30CBF00495445 /* MainViewController.swift */,
+				ADD4D2B424A3171E00949DB3 /* MemoListViewController.swift */,
+				AD7836D224A30CBF00495445 /* MemoDetailViewController.swift */,
+				ADD4D2B624A322C400949DB3 /* MemoComposeViewController.swift */,
+				ADD4D2BE24A3246400949DB3 /* VIewModelBindableType.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -84,6 +99,9 @@
 		AD8EB8B424A30F6500111A8D /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				ADD4D2B824A323D600949DB3 /* MemoListViewModel.swift */,
+				ADD4D2BA24A3240100949DB3 /* MemoDetailViewModel.swift */,
+				ADD4D2BC24A3242B00949DB3 /* MemoComposeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -272,11 +290,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD8EB8BE24A312BD00111A8D /* MemoryStorage.swift in Sources */,
-				AD7836D324A30CBF00495445 /* MainViewController.swift in Sources */,
+				AD7836D324A30CBF00495445 /* MemoDetailViewController.swift in Sources */,
+				ADD4D2BD24A3242B00949DB3 /* MemoComposeViewModel.swift in Sources */,
 				AD8EB8BA24A3116B00111A8D /* MemoStorageType.swift in Sources */,
+				ADD4D2BB24A3240100949DB3 /* MemoDetailViewModel.swift in Sources */,
 				ADFCAEBB2473DD2F005738F2 /* TestViewController.swift in Sources */,
 				ADFCAEB72473DD2F005738F2 /* AppDelegate.swift in Sources */,
+				ADD4D2B524A3171E00949DB3 /* MemoListViewController.swift in Sources */,
+				ADD4D2B724A322C400949DB3 /* MemoComposeViewController.swift in Sources */,
+				ADD4D2BF24A3246400949DB3 /* VIewModelBindableType.swift in Sources */,
 				AD8EB8B824A3106200111A8D /* Memo.swift in Sources */,
+				ADD4D2B924A323D600949DB3 /* MemoListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +448,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ALL2F32G29;
 				INFOPLIST_FILE = StartRxSwift/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -444,7 +468,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ALL2F32G29;
 				INFOPLIST_FILE = StartRxSwift/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

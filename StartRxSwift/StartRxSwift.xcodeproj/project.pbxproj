@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7871D24DC15BBD0EB60A45F1 /* Pods_StartRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 124FC15B553B9C94DF83A4A8 /* Pods_StartRxSwift.framework */; };
+		AD7836D324A30CBF00495445 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7836D224A30CBF00495445 /* MainViewController.swift */; };
 		ADFCAEB72473DD2F005738F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFCAEB62473DD2F005738F2 /* AppDelegate.swift */; };
 		ADFCAEBB2473DD2F005738F2 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFCAEBA2473DD2F005738F2 /* TestViewController.swift */; };
 		ADFCAEBE2473DD2F005738F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADFCAEBC2473DD2F005738F2 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 		124FC15B553B9C94DF83A4A8 /* Pods_StartRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StartRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79631A1CFE6B0752E5FEE305 /* Pods-StartRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StartRxSwift.debug.xcconfig"; path = "Target Support Files/Pods-StartRxSwift/Pods-StartRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		7ECEA8F8D722C1A4B21F72E4 /* Pods-StartRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StartRxSwift.release.xcconfig"; path = "Target Support Files/Pods-StartRxSwift/Pods-StartRxSwift.release.xcconfig"; sourceTree = "<group>"; };
+		AD7836D224A30CBF00495445 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		ADFCAEB32473DD2F005738F2 /* StartRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StartRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADFCAEB62473DD2F005738F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADFCAEBA2473DD2F005738F2 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			children = (
 				ADFCAEB62473DD2F005738F2 /* AppDelegate.swift */,
 				ADFCAEBA2473DD2F005738F2 /* TestViewController.swift */,
+				AD7836D224A30CBF00495445 /* MainViewController.swift */,
 				ADFCAEBC2473DD2F005738F2 /* Main.storyboard */,
 				ADFCAEBF2473DD30005738F2 /* Assets.xcassets */,
 				ADFCAEC12473DD30005738F2 /* LaunchScreen.storyboard */,
@@ -203,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD7836D324A30CBF00495445 /* MainViewController.swift in Sources */,
 				ADFCAEBB2473DD2F005738F2 /* TestViewController.swift in Sources */,
 				ADFCAEB72473DD2F005738F2 /* AppDelegate.swift in Sources */,
 			);
@@ -280,7 +284,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -334,7 +338,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -350,8 +354,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2SAR4Q5FCM;
+				DEVELOPMENT_TEAM = ALL2F32G29;
 				INFOPLIST_FILE = StartRxSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -369,8 +374,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2SAR4Q5FCM;
+				DEVELOPMENT_TEAM = ALL2F32G29;
 				INFOPLIST_FILE = StartRxSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

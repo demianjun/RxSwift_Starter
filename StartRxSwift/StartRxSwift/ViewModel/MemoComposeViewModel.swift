@@ -22,7 +22,13 @@ class MemoComposeViewModel: CommonViewModel {
   let saveAction: Action<String, Void>
   let cancelAction: CocoaAction
   
-  init(title: String, content: String? = nil, sceneCoordinator: SceneCoordinatorType, storage: MemoStorageType, saveAction: Action<String, Void>? = nil, cancelAction: CocoaAction? = nil) {
+  init(title: String,
+       content: String? = nil,
+       sceneCoordinator: SceneCoordinatorType,
+       storage: MemoStorageType,
+       saveAction: Action<String, Void>? = nil,
+       cancelAction: CocoaAction? = nil) {
+    
     self.content = content
     
     self.saveAction = Action<String, Void> { input in
@@ -38,6 +44,8 @@ class MemoComposeViewModel: CommonViewModel {
       }
       return sceneCoordinator.close(animated: true).asObservable().map { _ in }
     }
-    super.init(title: title, sceneCoordinator: sceneCoordinator, storage: storage)
+    super.init(title: title,
+               sceneCoordinator: sceneCoordinator,
+               storage: storage)
   }
 }

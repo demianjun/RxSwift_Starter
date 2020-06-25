@@ -9,7 +9,7 @@
 import UIKit
 import RxSwift
 import RxCocoa
-import NSObject_Rx
+//import NSObject_Rx
 
 class MemoListViewController: UIViewController, ViewModelBindableType {
   var viewModel: MemoListViewModel!

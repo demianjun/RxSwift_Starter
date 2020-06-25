@@ -26,6 +26,8 @@ class MemoListViewModel: CommonViewModel {
     return ds
   }()
   
+  
+  
   var memoList: Observable<[MemoSectionModel]> {
     return storage.memoList()
   }

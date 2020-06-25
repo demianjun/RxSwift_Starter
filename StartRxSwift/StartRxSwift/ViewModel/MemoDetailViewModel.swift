@@ -30,6 +30,7 @@ class MemoDetailViewModel: CommonViewModel {
     
     self.memo = memo
     
+    
     contents = BehaviorSubject<[String]>(value: [
       memo.content,
       formatter.string(from: memo.insertDate)

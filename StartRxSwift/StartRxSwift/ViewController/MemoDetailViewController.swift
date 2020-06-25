@@ -13,6 +13,13 @@ import Then
 class MemoDetailViewController: UIViewController, ViewModelBindableType {
   var viewModel: MemoDetailViewModel!
  
+  
+  @IBOutlet weak var listTableView: UITableView!
+  
+  @IBOutlet weak var deleteButton: UIBarButtonItem!
+  @IBOutlet weak var editButton: UIBarButtonItem!
+  @IBOutlet weak var sharedButton: UIBarButtonItem!
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     

@@ -40,7 +40,9 @@ class MemoListViewModel: CommonViewModel {
                                                       cancelAction: self.performCancel(memo: memo))
           
           let composeScene = Scene.compose(composeViewModel)
-          return self.sceneCoordinator.transition(to: composeScene, using: .modal, animated: true).asObservable().map { _ in }
+          return self.sceneCoordinator.transition(to: composeScene,
+                                                  using: .modal,
+                                                  animated: true).asObservable().map { _ in }
       }
     }
   }
